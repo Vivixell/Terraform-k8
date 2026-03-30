@@ -1,5 +1,7 @@
 # Deploying Multi-Cloud Infrastructure with Terraform Modules
 
+![banner](https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F3oaqpib3yk1fop5xbvbk.png)
+
 ## The Monolith Problem
 Most engineers start writing Terraform by dropping a single AWS provider block at the top of their `main.tf` and dumping all their resources underneath it. That works for a weekend project. It completely falls apart in production.
 
@@ -134,6 +136,4 @@ resource "kubernetes_deployment" "nginx" {
 
 ### Conclusion
 When you decouple providers from modules and learn to chain them together, Terraform transitions from a simple provisioning tool into a complete, end-to-end platform orchestrator.
-
-#Terraform #DevOps #AWS #EKS #Kubernetes #CloudEngineering
 
